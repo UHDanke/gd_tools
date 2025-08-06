@@ -1,0 +1,822 @@
+Category,Property,Type,ID,Description
+$AREA TRIGGER COMMON,length,int,222
+$AREA TRIGGER COMMON,length +-,int,223
+$AREA TRIGGER COMMON,offset,int,220
+$AREA TRIGGER COMMON,offset +-,int,221
+$AREA TRIGGER COMMON,easing,"int ∈ [0, 18]",242
+$AREA TRIGGER COMMON,easing rate,float,243
+$AREA TRIGGER COMMON,ease out,bool,261
+$AREA TRIGGER COMMON,easing2,"int ∈ [0, 18]",248
+$AREA TRIGGER COMMON,easing2 rate,float,249
+$AREA TRIGGER COMMON,offset Y,int,252
+$AREA TRIGGER COMMON,offset Y +-,int,253
+$AREA TRIGGER COMMON,mod front,float,263
+$AREA TRIGGER COMMON,mod back,float,264
+$AREA TRIGGER COMMON,deadzone,float,282
+$AREA TRIGGER COMMON,dir buttons DIR,"int ∈ [0, 2]",262,"all, horiz, vert"
+$AREA TRIGGER COMMON,dir buttons INWARDS,bool,276
+$AREA TRIGGER COMMON,dir buttons SINGLE ARROW,bool,283,seems to be true when DIR is all
+$AREA TRIGGER COMMON,DE AP,bool,539
+$AREA TRIGGER COMMON,ignore linked,bool,281
+$AREA TRIGGER COMMON,ignore gparent,bool,280
+$AREA TRIGGER COMMON,effect id,int,225
+$AREA TRIGGER COMMON,target id,int,51
+$AREA TRIGGER COMMON,center id,int,71
+$AREA TRIGGER COMMON,priority,int,341
+$AREA TRIGGER COMMON,center P1/P2/C/.../TR,"int ∈ [-11, 0]",538
+$EDIT AREA TRIGGER COMMON,group/effect id,int,51
+$EDIT AREA TRIGGER COMMON,use eid,bool,355
+Object Common,id,int,1
+Object Common,x,float,2
+Object Common,y,float,3
+Object Common,flip horiz,bool,4
+Object Common,flip vert,bool,5
+Object Common,rotation,float,6
+Object Common,scale,float,32
+Object Common,scale X,float,128
+Object Common,scale Y,float,129
+Object Common,warp Y angle,float,131
+Object Common,warp X angle,float,132
+Object Common,1.9 color channel,"int ∈ [0, 8]",19
+Object Common,color 1,int,21
+Object Common,color 2,int,22
+Object Common,single_color_type,"int ∈ [0, 2]",497,that settings icon at the top of edit object that changes if single color objects are treated as base or detail
+Object Common,color 1 hsv enabled,bool,41
+Object Common,color 1 hsv,hsv string,43
+Object Common,color 2 hsv enabled,bool,42
+Object Common,color 2 hsv,hsv string,44
+Object Common,single group,int,33
+Object Common,groups,string,57,"period separated list, includes the group parent ids"
+Object Common,group parent ids,string,274,"period separated list, these are the pink groups"
+Object Common,editor layer,int,20
+Object Common,editor layer 2,int,61
+Object Common,z layer,int,24
+Object Common,z order,int,25
+Object Common,ord,int,115
+Object Common,channel,int,170
+Object Common,edp,bool,13
+Object Common,linked group,int,108,the id of the editor link group this object is in (link controls)
+Object Extra,don't fade,bool,64
+Object Extra,don't enter,bool,67
+Object Extra,no effects,bool,116
+Object Extra,group parent,bool,34
+Object Extra,area parent,bool,279
+Object Extra,dont boost y,bool,496
+Object Extra,dont boost x,bool,509
+Object Extra,single ptouch,bool,284
+Object Extra,high detail,bool,103
+Object Extra,no touch,bool,121
+Object Extra,passable,bool,134
+Object Extra,hide,bool,135
+Object Extra,non stick x,bool,136
+Object Extra,extra sticky,bool,495
+Object Extra,extended collision,bool,511
+Object Extra,center effect,bool,369
+Object Extra,ice block,bool,137
+Object Extra,grip slope,bool,193
+Object Extra,no glow,bool,96
+Object Extra,no particle,bool,507
+Object Extra,non stick y,bool,289
+Object Extra,scale stick,bool,356
+Object Extra,no audio scale,bool,372
+Object Extra,reverse,bool,117
+Object Extra,enter channel,int,343
+Object Extra,material,int,446
+Object Extra,control id,int,534
+Misc,orange teleportation portal distance,float,54
+Dash Orb,speed,float,586
+Dash Orb,end boost,float,588
+Dash Orb,max duration,float,590
+Dash Orb,allow collide,bool,587
+Dash Orb,stop slide,bool,589
+Trigger Common,duration,float,10,also called fade time in several places
+Trigger Common,spawn triggered,bool,62
+Trigger Common,touch triggered,bool,11
+Trigger Common,multi triggered,bool,87
+Trigger Common,easing,"int ∈ [0, 18]",30
+Trigger Common,easing rate,float,85
+Custom Particles,particle data,string,145,"list separated by `a`, check above for properties in order"
+Custom Particles,use obj color,bool,146
+Custom Particles,uniform obj color,bool,147,"for some reason, this value is also present in the particle data string 😰"
+Custom Particles,animate on trigger,bool,123
+Custom Particles,animate active only,bool,214
+Custom Particles,quick start,bool,211
+Text Object,text,string,31,base64 encoded
+Text Object,kerning,int,488
+Color Trigger,red,int,7
+Color Trigger,green,int,8
+Color Trigger,blue,int,9
+Color Trigger,opacity,float,35
+Color Trigger,blending,bool,17
+Color Trigger,player color 1,bool,15
+Color Trigger,player color 2,bool,16
+Color Trigger,target color,int,23
+Color Trigger,copy color id,int,50
+Color Trigger,legacy hsv off,bool,210
+Color Trigger,hsv,hsv string,49
+Color Trigger,copy opacity,bool,60
+Background Color Trigger,tint ground,bool,14
+Collectible,particle,int,440
+Collectible,points,int,383
+Collectible,toggle trigger,bool,382
+Collectible,group id,int,51
+Collectible,enable group,bool,56
+Collectible,pickup item,bool,381
+Collectible,item id,int,80
+Collectible,sub count,bool,78
+Collectible,no anim,bool,463
+Rotating Objects,rotation speed,int,97
+Rotating Objects,disable rotation,bool,98
+Animated Objects,randomize start,bool,106
+Animated Objects,disable delayed loop,bool,126
+Animated Objects,use speed,bool,122
+Animated Objects,speed,float,107
+Animated Objects,disable animshine,bool,127
+Animated Objects,animate on trigger,bool,123
+Animated Objects,only if active,bool,214
+Animated Objects,single frame,int,462
+Animated Objects,offset anim,bool,592
+Move Trigger,target group,int,51
+Move Trigger,moveX,int,28
+Move Trigger,moveY,int,29
+Move Trigger,lock X Player,bool,58
+Move Trigger,modX,float,143
+Move Trigger,lock Y Player,bool,59
+Move Trigger,modY,float,144
+Move Trigger,lock X Camera,bool,141
+Move Trigger,lock Y Camera,bool,142
+Move Trigger,target mode,bool,100
+Move Trigger,target/dir mode centerGroup,int,395
+Move Trigger,target/dir mode targetGroup,int,71
+Move Trigger,target/dir mode targetP1,bool,138
+Move Trigger,target/dir mode targetP2,bool,200
+Move Trigger,target mode X/Y only,"int ∈ [0, 2]",101
+Move Trigger,direction mode,bool,394
+Move Trigger,direction mode distance,int,396
+Move Trigger,silent,bool,544
+Move Trigger,dynamic mode,bool,397
+Move Trigger,small step,bool,393
+Pulse Trigger,target id,int,51
+Pulse Trigger,target type,bool,52
+Pulse Trigger,exclusive,bool,86
+Pulse Trigger,main only,bool,65
+Pulse Trigger,detail only,bool,66
+Pulse Trigger,fade in,float,45
+Pulse Trigger,hold,float,46
+Pulse Trigger,fade out,float,47
+Pulse Trigger,red,int,7
+Pulse Trigger,green,int,8
+Pulse Trigger,blue,int,9
+Pulse Trigger,hsv enabled,bool,48
+Pulse Trigger,hsv,hsv string,49
+Pulse Trigger,copy color id,int,50
+Pulse Trigger,static hsv off,bool,210
+Alpha Trigger,group id,int,51
+Alpha Trigger,opacity,float,35
+Toggle Trigger,group id,int,51
+Toggle Trigger,activate group,bool,56
+Shake Trigger,strength,float,75
+Shake Trigger,interval,float,84
+Animate Trigger,target id,int,51
+Animate Trigger,animation id,int,76
+Spawn Trigger,target id,int,51
+Spawn Trigger,delay,float,63
+Spawn Trigger,delay +-,float,556
+Spawn Trigger,preview disable,bool,102
+Spawn Trigger,spawn ordered,bool,441
+Spawn Trigger,reset remap,bool,581
+Spawn Trigger,group remaps,string,442,"example: 3.5.2.10 -> remaps 3 to 5, 2 to 10"
+Rotate Trigger,degrees,float,68
+Rotate Trigger,x360,int,69
+Rotate Trigger,target group,int,51
+Rotate Trigger,center group,int,71
+Rotate Trigger,aim mode,bool,100
+Rotate Trigger,follow mode,bool,394
+Rotate Trigger,rot target id,int,401
+Rotate Trigger,rot offset,float,402
+Rotate Trigger,aim/follow mode targetP1,bool,138
+Rotate Trigger,aim/follow mode targetP2,bool,200
+Rotate Trigger,dynamic mode,bool,397
+Rotate Trigger,dynamic mode easing,int,403
+Rotate Trigger,lock obj rot,bool,70
+Rotate Trigger,minX id,int,516
+Rotate Trigger,minY id,int,517
+Rotate Trigger,maxX id,int,518
+Rotate Trigger,maxY id,int,519
+Scale Trigger,scale X,float,150
+Scale Trigger,scale Y,float,151
+Scale Trigger,div X,bool,153
+Scale Trigger,div Y,bool,154
+Scale Trigger,target group,int,51
+Scale Trigger,center group,int,71
+Scale Trigger,only move,bool,133
+Scale Trigger,relative scale,bool,577
+Scale Trigger,relative rot,bool,452
+Follow Trigger,X Mod,float,72
+Follow Trigger,Y Mod,float,73
+Follow Trigger,target group,int,51
+Follow Trigger,follow group,int,71
+Stop Trigger,target ID,int,51
+Stop Trigger,use control id,bool,535
+Stop Trigger,stop/pause/resume,"int ∈ [0, 2]",580
+Keyframe Anim Trigger,animation group id,int,76
+Keyframe Anim Trigger,target id,int,51
+Keyframe Anim Trigger,parent id,int,71
+Keyframe Anim Trigger,time mod,float,520
+Keyframe Anim Trigger,position X mod,float,521
+Keyframe Anim Trigger,position Y mod,float,545
+Keyframe Anim Trigger,rotation mod,float,522
+Keyframe Anim Trigger,scale X mod,float,523
+Keyframe Anim Trigger,scale Y mod,float,546
+Follow Player Y Trigger,speed,float,90
+Follow Player Y Trigger,delay,float,91
+Follow Player Y Trigger,offset,int,92
+Follow Player Y Trigger,max speed,float,105
+Follow Player Y Trigger,target id,int,51
+Advanced Follow Trigger,target id,int,51
+Advanced Follow Trigger,follow id,int,71
+Advanced Follow Trigger,priority,int,365
+Advanced Follow Trigger,X only,bool,306
+Advanced Follow Trigger,Y only,bool,307
+Advanced Follow Trigger,follow P1,bool,138
+Advanced Follow Trigger,follow P2,bool,200
+Advanced Follow Trigger,follow C,bool,201
+Advanced Follow Trigger,rot offset,int,340
+Advanced Follow Trigger,rot easing,int,363
+Advanced Follow Trigger,rot deadZ,int,364
+Advanced Follow Trigger,ignore disabled,bool,336
+Advanced Follow Trigger,rotate dir,bool,339
+Advanced Follow Trigger,init set add,"int ∈ [0, 2]",572
+Advanced Follow Trigger,exclusive,bool,571
+Advanced Follow Trigger,page 2 1/2/3,"int ∈ [0, 2]",367
+Advanced Follow Trigger,delay,float,292
+Advanced Follow Trigger,delay +-,float,293
+Advanced Follow Trigger,max speed,float,298
+Advanced Follow Trigger,max speed +-,float,299
+Advanced Follow Trigger,max range,int,308
+Advanced Follow Trigger,max range +-,int,309
+Advanced Follow Trigger,max range unmarked?,int,366
+Advanced Follow Trigger,easing,float,361
+Advanced Follow Trigger,easing +-,float,362
+Advanced Follow Trigger,start speed,float,300
+Advanced Follow Trigger,start speed +-,float,301
+Advanced Follow Trigger,start speed unmarked?,int,560
+Advanced Follow Trigger,start dir,int,563
+Advanced Follow Trigger,start dir +-,int,564
+Advanced Follow Trigger,start dir unmarked?,int,565
+Advanced Follow Trigger,acceleration,float,334
+Advanced Follow Trigger,acceleration +-,float,335
+Advanced Follow Trigger,friction,float,558
+Advanced Follow Trigger,friction +-,float,559
+Advanced Follow Trigger,near dist,float,359
+Advanced Follow Trigger,near dist +-,float,360
+Advanced Follow Trigger,near friction,float,561
+Advanced Follow Trigger,near friction +-,float,562
+Advanced Follow Trigger,near accel,float,357
+Advanced Follow Trigger,near accel +-,float,358
+Advanced Follow Trigger,steer force,float,316
+Advanced Follow Trigger,steer force +-,float,317
+Advanced Follow Trigger,steer force low,float,318
+Advanced Follow Trigger,steer force low +-,float,319
+Advanced Follow Trigger,steer force low checkbox,bool,337
+Advanced Follow Trigger,speed range low,float,322
+Advanced Follow Trigger,speed range low +-,float,323
+Advanced Follow Trigger,steer force high,float,320
+Advanced Follow Trigger,steer force high +-,float,321
+Advanced Follow Trigger,steer force high checkbox,bool,338
+Advanced Follow Trigger,speed range high,float,324
+Advanced Follow Trigger,speed range high +-,float,325
+Advanced Follow Trigger,slow dist,int,359
+Advanced Follow Trigger,slow dist +-,int,360
+Advanced Follow Trigger,break force,float,326
+Advanced Follow Trigger,break force +-,float,327
+Advanced Follow Trigger,break angle,int,328
+Advanced Follow Trigger,break angle +-,int,329
+Advanced Follow Trigger,break steer force,float,330
+Advanced Follow Trigger,break steer force +-,float,331
+Advanced Follow Trigger,break steer speed limit,float,332
+Advanced Follow Trigger,break steer speed limit +-,float,333
+Advanced Follow Trigger,target dir,bool,305
+Edit Advanced Follow Trigger,target id,int,51
+Edit Advanced Follow Trigger,X only,bool,306
+Edit Advanced Follow Trigger,Y only,bool,307
+Edit Advanced Follow Trigger,mod X,float,566
+Edit Advanced Follow Trigger,mod X +-,float,567
+Edit Advanced Follow Trigger,mod Y,float,568
+Edit Advanced Follow Trigger,mod Y +-,float,569
+Edit Advanced Follow Trigger,speed,float,300
+Edit Advanced Follow Trigger,speed +-,float,301
+Edit Advanced Follow Trigger,speed unmarked?,int,560
+Edit Advanced Follow Trigger,dir,int,363
+Edit Advanced Follow Trigger,dir +-,int,364
+Edit Advanced Follow Trigger,dir unmarked?,int,565
+Edit Advanced Follow Trigger,target control id,bool,535
+Edit Advanced Follow Trigger,redirect dir,bool,570
+Retarget Advanced Follow Trigger,target id,int,51
+Retarget Advanced Follow Trigger,follow id,int,71
+Retarget Advanced Follow Trigger,target control id,bool,535
+Retarget Advanced Follow Trigger,follow P1,bool,138
+Retarget Advanced Follow Trigger,follow P2,bool,200
+Retarget Advanced Follow Trigger,follow C,bool,201
+Keyframe Object,group id,int,51
+Keyframe Object,x360,int,537
+Keyframe Object,spawn gid,int,71
+Keyframe Object,spawn delay,float,557
+Keyframe Object,curve,bool,378
+Keyframe Object,cw/ccw,"int ∈ [0, 2]",536,"cw: 1, ccw: 2"
+Keyframe Object,time/even/dist,"int ∈ [0, 2]",379
+Keyframe Object,prox,bool,377
+Keyframe Object,ref only,bool,375
+Keyframe Object,auto layer,bool,459
+Keyframe Object,preview art,bool,380
+Keyframe Object,close loop,bool,376
+Keyframe Object,anim id?,int,373
+Keyframe Object,order index,int,374,the order of the keyframe in its respective animation
+Keyframe Object,line opacity,float,524
+Area Move Trigger,move dist,int,218
+Area Move Trigger,move dist +-,int,219
+Area Move Trigger,move angle,int,231
+Area Move Trigger,move angle +-,int,232
+Area Move Trigger,rfade,float,288
+Area Move Trigger,relative,bool,287
+Area Move Trigger,xy mode,bool,241
+Area Move Trigger,moveX,int,237
+Area Move Trigger,moveX +-,int,238
+Area Move Trigger,moveY,int,239
+Area Move Trigger,moveY +-,int,240
+Area Rotate Trigger,rotation,float,270
+Area Rotate Trigger,rotation +-,float,271
+Area Scale Trigger,scale X,float,233
+Area Scale Trigger,scale X +-,float,234
+Area Scale Trigger,scale Y,float,235
+Area Scale Trigger,scale Y +-,float,236
+Area Fade Trigger,from opacity,float,286
+Area Fade Trigger,to opacity,float,275
+Area Tint Trigger,color channel,int,260
+Area Tint Trigger,tint,float,265
+Area Tint Trigger,main only,bool,65
+Area Tint Trigger,secondary only,bool,66
+Area Tint Trigger,hsv on,bool,278
+Area Tint Trigger,hsv,hsv string,49
+Stop Area Trigger,effect id,int,51
+Background Trigger,background,"int ∈ [1, 59]",533
+Ground Trigger,ground,"int ∈ [1, 22]",533
+Middle Ground Trigger,middle ground,"int ∈ [0, 3]",533
+Touch Trigger,group id,int,51
+Touch Trigger,hold mode,bool,81
+Touch Trigger,p1/p2 only,"int ∈ [0, 2]",198
+Touch Trigger,toggle on/off,"int ∈ [0, 2]",82
+Touch Trigger,dual mode,bool,89
+Count Trigger,item id,int,80
+Count Trigger,target id,int,51
+Count Trigger,target count,int,77
+Count Trigger,activate group,bool,56
+Count Trigger,multi activate,bool,104
+Instant Count Trigger,item id,int,80
+Instant Count Trigger,target id,int,51
+Instant Count Trigger,target count,int,77
+Instant Count Trigger,activate group,bool,56
+Instant Count Trigger,equals/larger/smaller,"int ∈ [0, 2]",88
+Gradient Trigger,blending,"int ∈ [0, 3]",174
+Gradient Trigger,layer,"int ∈ [1, 15]",202
+Gradient Trigger,U/BL,int,203
+Gradient Trigger,D/BR,int,204
+Gradient Trigger,L/TL,int,205
+Gradient Trigger,R/TR,int,206
+Gradient Trigger,vertex mode,bool,207
+Gradient Trigger,disable,bool,208
+Gradient Trigger,id,int,209
+Gradient Trigger,preview opacity,float,456
+Gradient Trigger,disable all,bool,508
+Static Camera Trigger,target group id,int,71
+Static Camera Trigger,follow,bool,212
+Static Camera Trigger,follow easing,float,213
+Static Camera Trigger,smooth velocity,bool,453
+Static Camera Trigger,smooth velocity modifier,float,454
+Static Camera Trigger,exit instant,bool,465
+Static Camera Trigger,exit static,bool,110
+Camera Zoom Trigger,zoom,float,371
+Camera Rotate Trigger,degrees,float,68
+Camera Rotate Trigger,add,bool,70
+Camera Rotate Trigger,snap360,bool,394
+Camera Edge Trigger,edge,"int ∈ [0, 4]",164
+Camera Edge Trigger,target id,int,51
+Camera Mode Trigger,free mode,bool,111
+Camera Mode Trigger,edit camera settings,bool,112
+Camera Mode Trigger,easing,int,113
+Camera Mode Trigger,padding,float,114
+Camera Mode Trigger,disable gridsnap,bool,370
+Camera Guide,zoom,float,371
+Camera Guide,offsetX,int,28
+Camera Guide,offsetY,int,29
+Camera Guide,preview opacity,float,506
+Camera Offset Trigger,offsetX,int,28
+Camera Offset Trigger,offsetY,int,29
+Camera Offset Trigger,x/y only,"int ∈ [0, 2]",101
+Song Trigger,volume,float,406
+Song Trigger,speed,int,404
+Song Trigger,channel,int,432
+Song Trigger,loop,bool,413
+Song Trigger,start,int,408
+Song Trigger,fade in,int,409
+Song Trigger,end,int,410
+Song Trigger,fade out,int,411
+Song Trigger,prep,bool,399
+Song Trigger,load prep,bool,400
+Song Trigger,song,int,392
+Song Trigger,dont reset,bool,595
+SFX Trigger,sfx id,int,392
+SFX Trigger,sound duration,float,490,"affected by changing sfx, speed, start/end"
+SFX Trigger,speed,int,404
+SFX Trigger,pitch,int,405
+SFX Trigger,volume,float,406
+SFX Trigger,reverb,bool,407
+SFX Trigger,reverb type,"int ∈ [0, 22]",502
+SFX Trigger,reverb enable,bool,503
+SFX Trigger,FFT,bool,412
+SFX Trigger,loop,bool,413
+SFX Trigger,pre load,bool,433
+SFX Trigger,start,int,408
+SFX Trigger,end,int,410
+SFX Trigger,fade in,int,409
+SFX Trigger,fade out,int,411
+SFX Trigger,unique id,int,416
+SFX Trigger,SFX group,int,455
+SFX Trigger,is unique,bool,415
+SFX Trigger,override,bool,420
+SFX Trigger,min interval,float,434
+SFX Trigger,ignore volume test,bool,489
+SFX Trigger,group id 1,int,51
+SFX Trigger,group id 2,int,71
+SFX Trigger,P1,bool,138
+SFX Trigger,P2,bool,200
+SFX Trigger,CAM,bool,428
+SFX Trigger,vol near,float,421
+SFX Trigger,vol med,float,422
+SFX Trigger,vol far,float,423
+SFX Trigger,min dist,int,424
+SFX Trigger,dist 2,int,425
+SFX Trigger,dist 3,int,426
+SFX Trigger,dir buttons,"int ∈ [0, 6]",458
+Pickup Trigger,item id,int,80
+Pickup Trigger,count,int,77
+Pickup Trigger,override,bool,139
+Pickup Trigger,multiply/divide,"int ∈ [0, 2]",88
+Pickup Trigger,modifier,float,449
+Time Trigger,start time,float,467
+Time Trigger,stop time,float,473
+Time Trigger,stop checked,bool,474
+Time Trigger,item id,int,80
+Time Trigger,target id,int,51
+Time Trigger,time mod,float,470
+Time Trigger,ignore timewarp,bool,469
+Time Trigger,start paused,bool,471
+Time Trigger,dont override,bool,468
+Time Event Trigger,item id,int,80
+Time Event Trigger,target id,int,51
+Time Event Trigger,target time,float,473
+Time Event Trigger,multi activate,bool,475
+Time Control Trigger,item id,int,80
+Time Control Trigger,start/stop,bool,472
+Item Edit Trigger,item id 1,int,80
+Item Edit Trigger,item id 2,int,95
+Item Edit Trigger,target item id,int,51
+Item Edit Trigger,typ 1,"int ∈ [0, 5]",476
+Item Edit Trigger,typ 2,"int ∈ [0, 5]",477
+Item Edit Trigger,target typ,"int ∈ [1, 3]",478
+Item Edit Trigger,mod,float,479
+Item Edit Trigger,assign op,"int ∈ [0, 4]",480
+Item Edit Trigger,op1,"int ∈ [1, 4]",481
+Item Edit Trigger,op2,"int ∈ [3, 4]",482
+Item Edit Trigger,abs/neg 1,"int ∈ [0, 2]",578
+Item Edit Trigger,abs/neg 2,"int ∈ [0, 2]",579
+Item Edit Trigger,rnd/flr/cei 1,"int ∈ [0, 3]",485
+Item Edit Trigger,rnd/flr/cei 2,"int ∈ [0, 3]",486
+Item Compare Trigger,item id 1,int,80
+Item Compare Trigger,item id 2,int,95
+Item Compare Trigger,typ 1,"int ∈ [0, 5]",476
+Item Compare Trigger,typ 2,"int ∈ [0, 5]",477
+Item Compare Trigger,mod1,float,479
+Item Compare Trigger,mod2,float,483
+Item Compare Trigger,true id,int,51
+Item Compare Trigger,false id,int,71
+Item Compare Trigger,tol +-,float,484
+Item Compare Trigger,op1,"int ∈ [1, 4]",480
+Item Compare Trigger,op2,"int ∈ [1, 4]",481
+Item Compare Trigger,compare op,"int ∈ [0, 5]",482
+Item Compare Trigger,abs/neg 1,"int ∈ [0, 2]",578
+Item Compare Trigger,abs/neg 2,"int ∈ [0, 2]",579
+Item Compare Trigger,rnd/flr/cei 1,"int ∈ [0, 3]",485
+Item Compare Trigger,rnd/flr/cei 2,"int ∈ [0, 3]",486
+Item Persistence Trigger,item id,int,80
+Item Persistence Trigger,timer,bool,494
+Item Persistence Trigger,persistent,bool,491
+Item Persistence Trigger,target all,bool,492
+Item Persistence Trigger,reset,bool,493
+Random Trigger,group id 1,int,51
+Random Trigger,group id 2,int,71
+Random Trigger,chance,float,10
+Advanced Random Trigger,list,string,152,"example: 2.10.3.15 -> g2 weight 10, g3 weight 15"
+Sequence Trigger,sequence,string,435,"period separated, similar to spawn remap"
+Sequence Trigger,mode,"int ∈ [0, 2]",436
+Sequence Trigger,min int,float,437
+Sequence Trigger,reset,float,438
+Sequence Trigger,reset full/step,bool,439
+Spawn Particle Trigger,particle group,int,51
+Spawn Particle Trigger,position group,int,71
+Spawn Particle Trigger,offset X,int,547
+Spawn Particle Trigger,offset Y,int,548
+Spawn Particle Trigger,offvar X,int,549
+Spawn Particle Trigger,offvar Y,int,550
+Spawn Particle Trigger,rotation,int,552
+Spawn Particle Trigger,rotation +-,int,553
+Spawn Particle Trigger,scale,float,554
+Spawn Particle Trigger,scale +-,float,555
+Spawn Particle Trigger,match rot,bool,551
+Reset Trigger,group id,int,51
+Rotate Gameplay / Arrow Trigger,edit velocity,bool,169
+Rotate Gameplay / Arrow Trigger,velocity mod x,float,582
+Rotate Gameplay / Arrow Trigger,velocity mod y,float,583
+Rotate Gameplay / Arrow Trigger,override velocity,bool,584
+Rotate Gameplay / Arrow Trigger,change channel,bool,171
+Rotate Gameplay / Arrow Trigger,channel only,bool,172
+Rotate Gameplay / Arrow Trigger,target channel,int,173
+Rotate Gameplay / Arrow Trigger,dont slide,bool,585
+Rotate Gameplay / Arrow Trigger,instant offset,bool,368
+Rotate Gameplay / Arrow Trigger,arrow dir,"int ∈ [1, 4]",167,"1: up, 2: down, 3: left, 4: right"
+Rotate Gameplay / Arrow Trigger,gravity dir,"int ∈ [1, 4]",166,"1: up, 2: down, 3: left, 4: right"
+Event Trigger,group id,int,51
+Event Trigger,extra id,int,447
+Event Trigger,extra id 2,int,525
+Event Trigger,events,string,430,period separated list
+Timewarp Trigger,time mod,float,120
+Counter Display,item id,int,80
+Counter Display,time counter,bool,466
+Counter Display,align,"int ∈ [0, 2]",391
+Counter Display,seconds only,bool,389
+Counter Display,maintime/points/attempts,"int ∈ [-3, 0]",390
+UI Trigger,group id,int,51
+UI Trigger,ui target,int,71
+UI Trigger,xref pos,"int ∈ [1, 4]",385
+UI Trigger,yref pos,"int ∈ [1, 4]",386
+UI Trigger,xref relative,bool,387
+UI Trigger,yref relative,bool,388
+Collision Trigger,block A id,int,80
+Collision Trigger,block B id,int,95
+Collision Trigger,target id,int,51
+Collision Trigger,activate group,bool,56
+Collision Trigger,trigger on exit,bool,93
+Collision Trigger,P1,bool,138
+Collision Trigger,P2,bool,200
+Collision Trigger,PP,bool,201
+Instant Collision Trigger,block A id,int,80
+Instant Collision Trigger,block B id,int,95
+Instant Collision Trigger,true id,int,51
+Instant Collision Trigger,false id,int,71
+Instant Collision Trigger,P1,bool,138
+Instant Collision Trigger,P2,bool,200
+Instant Collision Trigger,PP,bool,201
+Collision State Block,state on,int,51
+Collision State Block,state off,int,71
+Collision Block,block id,int,80
+Collision Block,dynamic block,bool,94
+Toggle Block,group id,int,51
+Toggle Block,activate group,bool,56
+Toggle Block,claim touch,bool,445
+Toggle Block,spawn only,bool,504
+Toggle Block,multi activate (classic),bool,99
+Toggle Block,no multi activate (platformer),bool,444
+Options Trigger,streak additive,"int ∈ [-1, 1]",159
+Options Trigger,hide ground,"int ∈ [-1, 1]",161
+Options Trigger,hide mg,"int ∈ [-1, 1]",195
+Options Trigger,hide P1,"int ∈ [-1, 1]",162
+Options Trigger,hide P2,"int ∈ [-1, 1]",163
+Options Trigger,disable P1 controls,"int ∈ [-1, 1]",165
+Options Trigger,disable P2 controls,"int ∈ [-1, 1]",199
+Options Trigger,unlink dual gravity,"int ∈ [-1, 1]",160
+Options Trigger,hide attempts,"int ∈ [-1, 1]",532
+Options Trigger,audio on death,"int ∈ [-1, 1]",575
+Options Trigger,no death sfx,"int ∈ [-1, 1]",576
+Options Trigger,edit respawn time,"int ∈ [-1, 1]",573
+Options Trigger,respawn time,float,574
+On Death Trigger,group id,int,51
+On Death Trigger,activate group,bool,56
+Gravity Trigger,gravity,float,148
+Gravity Trigger,P1,bool,138
+Gravity Trigger,P2,bool,200
+Gravity Trigger,PT,bool,201
+Player Control Trigger,P1,bool,138
+Player Control Trigger,P2,bool,200
+Player Control Trigger,stop jump,bool,540
+Player Control Trigger,stop move,bool,541
+Player Control Trigger,stop rot,bool,542
+Player Control Trigger,stop slide,bool,543
+Teleport Trigger,target group id,int,51
+Teleport Trigger,smooth ease,bool,55
+Teleport Trigger,static force,bool,345
+Teleport Trigger,static force additive,bool,443
+Teleport Trigger,redirect force,bool,347
+Teleport Trigger,redirect force min,float,348
+Teleport Trigger,redirect force max,float,349
+Teleport Trigger,redirect force mod,float,350,default on trigger
+Teleport Trigger,static force value,float,346
+Teleport Trigger,save offset,bool,351
+Teleport Trigger,ignore x,bool,352
+Teleport Trigger,ignore y,bool,353
+Teleport Trigger,exit gravity,"int ∈ [0, 3]",354
+Teleport Trigger,instant camera,bool,464
+Teleport Trigger,snap ground,bool,510
+Teleport Trigger,redirect dash,bool,591
+Shader Trigger,disable all,bool,192
+Shader Trigger,no player particles,bool,188
+Shader Trigger,lowest layer,"int ∈ [1, 15]",196
+Shader Trigger,highest layer,"int ∈ [1, 15]",197
+Shader Trigger Common,relative,bool,514
+Shader Trigger Common,animate,bool,513
+Shader Trigger Common,shader disable,bool,531
+Shockwave Shader Trigger,speed,float,175
+Shockwave Shader Trigger,strength,float,176
+Shockwave Shader Trigger,thickness,float,180
+Shockwave Shader Trigger,wave w,float,179
+Shockwave Shader Trigger,fade in,float,181
+Shockwave Shader Trigger,fade out,float,182
+Shockwave Shader Trigger,time off,float,177
+Shockwave Shader Trigger,max size,float,512
+Shockwave Shader Trigger,screen offX,float,290
+Shockwave Shader Trigger,screen offY,float,291
+Shockwave Shader Trigger,invert,bool,184
+Shockwave Shader Trigger,inner,float,183
+Shockwave Shader Trigger,outer,float,191
+Shockwave Shader Trigger,target,bool,188
+Shockwave Shader Trigger,center id,int,51
+Shockwave Shader Trigger,P1,bool,138
+Shockwave Shader Trigger,P2,bool,200
+Shockwave Shader Trigger,follow,bool,190
+Shock Line Shader Trigger,speed,float,175
+Shock Line Shader Trigger,strength,float,176
+Shock Line Shader Trigger,thickness,float,180
+Shock Line Shader Trigger,wave w,float,179
+Shock Line Shader Trigger,fade in,float,181
+Shock Line Shader Trigger,fade out,float,182
+Shock Line Shader Trigger,time off,float,177
+Shock Line Shader Trigger,max size,float,512
+Shock Line Shader Trigger,screen off,float,290
+Shock Line Shader Trigger,invert,bool,184
+Shock Line Shader Trigger,flip,bool,185
+Shock Line Shader Trigger,rotate,bool,186
+Shock Line Shader Trigger,dual,bool,187
+Shock Line Shader Trigger,target,bool,188
+Shock Line Shader Trigger,center id,int,51
+Shock Line Shader Trigger,P1,bool,138
+Shock Line Shader Trigger,P2,bool,200
+Shock Line Shader Trigger,follow,bool,190
+Glitch Shader Trigger,strength,float,176
+Glitch Shader Trigger,speed,float,175
+Glitch Shader Trigger,slice height,float,179
+Glitch Shader Trigger,max slice x off,float,191
+Glitch Shader Trigger,max col x off,float,181
+Glitch Shader Trigger,max col y off,float,182
+Chromatic Shader Trigger,target X,float,180
+Chromatic Shader Trigger,target Y,float,189
+Chromatic Shader Trigger,use X,bool,188
+Chromatic Shader Trigger,use Y,bool,190
+Chroma Glitch Shader Trigger,speed,float,175
+Chroma Glitch Shader Trigger,rgb off,float,180
+Chroma Glitch Shader Trigger,strength,float,176
+Chroma Glitch Shader Trigger,line thickness,float,179
+Chroma Glitch Shader Trigger,segment h,float,189
+Chroma Glitch Shader Trigger,line strength,float,191
+Chroma Glitch Shader Trigger,disable,bool,192
+Chroma Glitch Shader Trigger,relative pos,bool,194
+Pixelate Shader Trigger,target X,float,180
+Pixelate Shader Trigger,target Y,float,189
+Pixelate Shader Trigger,use X,bool,188
+Pixelate Shader Trigger,use Y,bool,190
+Pixelate Shader Trigger,snap grid,bool,194
+Pixelate Shader Trigger,hard edges,bool,515
+Lens Circle Shader Trigger,size,float,179
+Lens Circle Shader Trigger,fade,float,181
+Lens Circle Shader Trigger,strength,float,176
+Lens Circle Shader Trigger,screen offX,float,290
+Lens Circle Shader Trigger,screen offY,float,291
+Lens Circle Shader Trigger,center id,int,51
+Lens Circle Shader Trigger,P1,bool,138
+Lens Circle Shader Trigger,P2,bool,200
+Lens Circle Shader Trigger,tint channel,int,71
+Radial Blur Shader Trigger,size,float,179
+Radial Blur Shader Trigger,intensity,float,176
+Radial Blur Shader Trigger,ref channel,int,71
+Radial Blur Shader Trigger,screen offX,float,290
+Radial Blur Shader Trigger,screen offY,float,291
+Radial Blur Shader Trigger,fade,float,181
+Radial Blur Shader Trigger,target,bool,188
+Radial Blur Shader Trigger,center id,int,51
+Radial Blur Shader Trigger,P1,bool,138
+Radial Blur Shader Trigger,P2,bool,200
+Radial Blur Shader Trigger,empty only,bool,515
+Motion Blur Shader Trigger,target X,float,180
+Motion Blur Shader Trigger,target Y,float,189
+Motion Blur Shader Trigger,ref channel,int,71
+Motion Blur Shader Trigger,fade,float,181
+Motion Blur Shader Trigger,intensity,float,176
+Motion Blur Shader Trigger,follow ease,float,191
+Motion Blur Shader Trigger,use X,bool,188
+Motion Blur Shader Trigger,use Y,bool,190
+Motion Blur Shader Trigger,empty only,bool,515
+Motion Blur Shader Trigger,dual dir,bool,194
+Motion Blur Shader Trigger,target id,int,71
+Motion Blur Shader Trigger,P1,bool,138
+Motion Blur Shader Trigger,P2,bool,200
+Motion Blur Shader Trigger,C,bool,201
+Bulge Shader Trigger,bulge,float,176
+Bulge Shader Trigger,radius,float,180
+Bulge Shader Trigger,screen off X,float,290
+Bulge Shader Trigger,screen off Y,float,291
+Bulge Shader Trigger,target,bool,188
+Bulge Shader Trigger,center id,int,51
+Bulge Shader Trigger,P1,bool,138
+Bulge Shader Trigger,P2,bool,200
+Pinch Shader Trigger,target X,float,180
+Pinch Shader Trigger,target Y,float,189
+Pinch Shader Trigger,screen off X,float,290
+Pinch Shader Trigger,screen off Y,float,291
+Pinch Shader Trigger,radius,float,512
+Pinch Shader Trigger,modifier,float,179
+Pinch Shader Trigger,use X,bool,190
+Pinch Shader Trigger,use Y,bool,194
+Grayscale Shader Trigger,target,float,176
+Grayscale Shader Trigger,tint channel,int,51
+Grayscale Shader Trigger,tint channel checkbox,bool,190
+Grayscale Shader Trigger,use lum,bool,188
+Sepia Shader Trigger,target,float,176
+Invert Color Shader Trigger,target,float,176
+Invert Color Shader Trigger,r,float,179
+Invert Color Shader Trigger,g,float,180
+Invert Color Shader Trigger,b,float,189
+Invert Color Shader Trigger,edit rgb,bool,188
+Invert Color Shader Trigger,tween rgb,bool,190
+Invert Color Shader Trigger,clamp rgb,bool,194
+Hue Shader Trigger,degrees,float,176
+Edit Color Trigger / Brightness Contrast Trigger,cr,float,176
+Edit Color Trigger / Brightness Contrast Trigger,cg,float,191
+Edit Color Trigger / Brightness Contrast Trigger,cb,float,175
+Edit Color Trigger / Brightness Contrast Trigger,br,float,179
+Edit Color Trigger / Brightness Contrast Trigger,bg,float,180
+Edit Color Trigger / Brightness Contrast Trigger,bb,float,189
+Enter Effect Triggers,enter/exit only,"int ∈ [0, 2]",217,"1: enter only, 2: exit only"
+Enter Effect Triggers,target enter channel,int,344
+Edit Song Trigger,channel,int,432
+Edit Song Trigger,stop,bool,417
+Edit Song Trigger,stop loop,bool,414
+Edit Song Trigger,speed,int,404
+Edit Song Trigger,change speed,bool,419
+Edit Song Trigger,volume,float,406
+Edit Song Trigger,change volume,bool,418
+Edit Song Trigger,group id 1,int,51
+Edit Song Trigger,group id 2,int,71
+Edit Song Trigger,P1,bool,138
+Edit Song Trigger,P2,bool,200
+Edit Song Trigger,CAM,bool,428
+Edit Song Trigger,vol near,float,421
+Edit Song Trigger,vol med,float,422
+Edit Song Trigger,vol far,float,423
+Edit Song Trigger,min dist,int,424
+Edit Song Trigger,dist 2,int,425
+Edit Song Trigger,dist 3,int,426
+Edit Song Trigger,dir buttons,"int ∈ [0, 6]",458
+Edit SFX Trigger,group id,int,457
+Edit SFX Trigger,sfx group,int,455
+Edit SFX Trigger,unique id,int,416
+Edit SFX Trigger,stop,bool,417
+Edit SFX Trigger,stop loop,bool,414
+Edit SFX Trigger,speed,int,404
+Edit SFX Trigger,change speed,bool,419
+Edit SFX Trigger,volume,float,406
+Edit SFX Trigger,change volume,bool,418
+Edit SFX Trigger,group id 1,int,51
+Edit SFX Trigger,group id 2,int,71
+Edit SFX Trigger,P1,bool,138
+Edit SFX Trigger,P2,bool,200
+Edit SFX Trigger,CAM,bool,428
+Edit SFX Trigger,vol near,float,421
+Edit SFX Trigger,vol med,float,422
+Edit SFX Trigger,vol far,float,423
+Edit SFX Trigger,min dist,int,424
+Edit SFX Trigger,dist 2,int,425
+Edit SFX Trigger,dist 3,int,426
+Edit SFX Trigger,dir buttons,"int ∈ [0, 6]",458
+Force Block,relative,bool,528
+Force Block,force,float,149
+Force Block,min force,float,526
+Force Block,max force,float,527
+Force Block,range,bool,529
+Force Block,force id,int,530
+End Trigger,spawn id,int,51
+End Trigger,target pos,int,71
+End Trigger,no effects,bool,460
+End Trigger,instant,bool,487
+End Trigger,no sfx,bool,461
+Secret Coin,coin id,int,12
+Old End Trigger,group id,int,51
+Old End Trigger,lock Y,bool,59
+Old End Trigger,reversed,bool,118

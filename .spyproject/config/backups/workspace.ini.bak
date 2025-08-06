@@ -1,0 +1,12 @@
+[workspace]
+restore_data_on_startup = True
+save_data_on_exit = True
+save_history = True
+save_non_project_files = False
+project_type = 'empty-project-type'
+recent_files = ['src\\level_tools\\classes\\serialization.py', 'src\\level_tools\\examples\\read_level1.py', 'src\\level_tools\\classes\\level.py', 'src\\level_tools\\classes\\types.py', 'src\\level_tools\\classes\\object.py', 'D:\\Portable Program Files\\WinPython\\WPy64-31140\\python-3.11.4.amd64\\Lib\\gzip.py']
+
+[main]
+version = 0.2.0
+recent_files = []
+

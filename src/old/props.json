@@ -1,0 +1,1655 @@
+[
+	{
+		"id": 1,
+		"type": "int",
+		"format": "id",
+		"map": "objects",
+		"alias": "ID",
+		"tags": ["Object"],
+		"description": ""
+	},
+	{
+		"id": 2,
+		"type": "float",
+		"format": "units",
+		"alias": "X",
+		"tags": ["Object"],
+		"description": ""
+	},
+	{
+		"id": 3,
+		"type": "float",
+		"format": "units",
+		"alias": "Y",
+		"tags": ["Object"],
+		"description": ""
+	},
+	{
+		"id": 4,
+		"type": "bool",
+		"alias": "flip_X",
+		"tags": ["Object"],
+		"description": ""
+	},
+	{
+		"id": 5,
+		"type": "bool",
+		"alias": "flip_Y",
+		"tags": ["Object"],
+		"description": ""
+	},
+	{
+		"id": 6,
+		"type": "float",
+		"format": "degrees",
+		"alias": "rotation",
+		"tags": ["Object"],
+		"description": ""
+	},
+	{
+		"id": 7,
+		"type": "int",
+		"format": "int8",
+		"alias": "channel_R",
+		"tags": ["Color Trigger","Pulse Trigger"],
+		"description": ""
+	},
+	{
+		"id": 8,
+		"type": "int",
+		"format": "int8",
+		"alias": "channel_G",
+		"tags": ["Color Trigger","Pulse Trigger"],
+		"description": ""
+	},
+	{
+		"id": 9,
+		"type": "int",
+		"format": "int8",
+		"alias": "channel_B",
+		"tags": ["Color Trigger","Pulse Trigger"],
+		"description": ""
+	},
+	{	
+		"id": 10,
+		"type": "float",
+		"format": "seconds",
+		"alias": "duration",
+		"tags": ["Trigger"],
+		"description": ""
+	},
+	{
+		"id": 10,
+		"type": "float",
+		"format": "percent",
+		"alias": "rand_chance",
+		"tags": ["Random Trigger"],
+		"description": "percent chance of random trigger"
+	},
+	{
+		"id": 11,
+		"type": "bool",
+		"alias": "touch_triggered",
+		"tags": ["Trigger"],
+		"description": ""
+	},
+	{
+		"id": 12,
+		"type": "int",
+		"format": "id",
+		"alias": "secret_coin_ID",
+		"tags": ["Reserved"],
+		"description": "official secret coin id, not used by user coins"
+	},
+	{
+		"id": 13,
+		"type": "bool",
+		"alias": "portal_preview_borders",
+		"tags": ["Object","Special"],
+		"description": ""
+	},
+	{
+		"id": 14,
+		"type": "bool",
+		"alias": "color_tint_ground",
+		"tags": ["Legacy"],
+		"description": "legacy color trigger option"
+	},
+	{
+		"id": 15,
+		"type": "bool",
+		"alias": "player_color_1",
+		"tags": ["Color Trigger"],
+		"description": ""
+	},
+	{
+		"id": 16,
+		"type": "bool",
+		"alias": "player_color_2",
+		"tags": ["Color Trigger"],
+		"description": ""
+	},
+	{
+		"id": 17,
+		"type": "bool",
+		"alias": "blending",
+		"tags": ["Color Trigger"],
+		"description": ""
+	},
+	{
+		"id": 19,
+		"type": "int",
+		"format": "id",
+		"map": [0,1005,1006,1,2,1007,3,4,1003],
+		"alias": "old_color_channel_ID",
+		"tags": ["Legacy"],
+		"description": "1.9 and below color channel ID, converted automatically to new color ids"
+	},
+	{
+		"id": 20,
+		"type": "int",
+		"alias": "editor_layer_1",
+		"tags": ["Object"],
+		"description": ""
+	},
+	{
+		"id": 21,
+		"type": "int",
+		"format": "id",
+		"map": "colors",
+		"alias": "color_1",
+		"tags": ["Object","Color ID"],
+		"description": ""
+	},
+	{
+		"id": 22,
+		"type": "int",
+		"format": "id",
+		"map": "colors",
+		"alias": "color_2",
+		"tags": ["Object","Color ID"],
+		"description": ""
+	},
+	{
+		"id": 23,
+		"type": "int",
+		"format": "id",
+		"map": "colors",
+		"alias": "color_channel",
+		"tags": ["Color Trigger","Color ID"],
+		"description": ""
+	},
+	{
+		"id": 24,
+		"type": "int",
+		"format": "id",
+		"map": "z_layers",
+		"alias": "z_layer",
+		"tags": ["Object"],
+		"description": ""
+	},
+	{
+		"id": 25,
+		"type": "int",
+		"alias": "z_order",
+		"tags": ["Object"],
+		"description": ""
+	},
+	{
+		"id": 28,
+		"type": "int",
+		"format": "units",
+		"alias": "move_x",
+		"tags": ["Move Trigger"],
+		"description": ""
+	},
+	{
+		"id": 29,
+		"type": "int",
+		"format": "units",
+		"alias": "move_y",
+		"tags": ["Move Trigger"],
+		"description": ""
+	},
+	{
+		"id": 30,
+		"type": "int",
+		"format": "id",
+		"map": "easing",
+		"alias": "easing",
+		"tags": ["Move Trigger"],
+		"description": ""
+	},
+	{
+		"id": 31,
+		"type": "base64",
+		"format": "text",
+		"alias": "text",
+		"tags": ["Text"],
+		"description": ""
+	},
+	{
+		"id": 32,
+		"type": "float",
+		"alias": "old_scale",
+		"tags": ["Legacy","Object"],
+		"description": "old scale property, automatically replaced by scale_X and scale_Y"
+	},
+	{
+		"id": 34,
+		"type": "bool",
+		"alias": "group_parent",
+		"category": ["Object","Extra"],
+		"description": ""
+	},
+	{
+		"id": 35,
+		"type": "float",
+		"alias": "color_opacity",
+		"tags": ["Color Trigger"],
+		"description": ""
+	},
+	{
+		"id": 36,
+		"type": "bool",
+		"alias": "interactible",
+		"tags": ["Object","Special"],
+		"description": "found on triggers, portals, pickups, anything that seems to trigger a secondary action on touch"
+	},
+	{
+		"id": 41,
+		"type": "bool",
+		"alias": "hsv_enabled_1",
+		"tags": ["Object"],
+		"description": "whether the object has any hsv changes on color 1"
+	},
+	{
+		"id": 42,
+		"type": "bool",
+		"alias": "hsv_enabled_2",
+		"tags": ["Object"],
+		"description": "whether the object has any hsv changes on color 2"
+	},
+	{
+		"id": 43,
+		"type": "list",
+		"format": "hsv",
+		"map": "hsv",
+		"alias": "hsv_1",
+		"tags": ["Object"],
+		"description": ""
+	},
+	{
+		"id": 44,
+		"type": "list",
+		"format": "hsv",
+		"map": "hsv",
+		"alias": "hsv_2",
+		"tags": ["Object"],
+		"description": ""
+	},
+	{
+		"id": 45,
+		"type": "float",
+		"format": "seconds",
+		"alias": "pulse_fade_in",
+		"tags": ["Pulse Trigger"],
+		"description": "pulse fade in duration"
+	},
+	{
+		"id": 46,
+		"type": "float",
+		"format": "seconds",
+		"alias": "pulse_hold",
+		"tags": ["Pulse Trigger"],
+		"description": "pulse hold duration"
+	},
+	{
+		"id": 47,
+		"type": "float",
+		"format": "seconds",
+		"alias": "pulse_fade_out",
+		"tags": ["Pulse Trigger"],
+		"description": "pulse fade out duration"
+	},
+	{
+		"id": 48,
+		"type": "bool",
+		"alias": "pulse_color_hsv",
+		"tags": ["Pulse Trigger"],
+		"description": "color / hsv selector"
+	},
+	{
+		"id": 49,
+		"type": "hsv",
+		"format": "hsv",
+		"map": "hsv",
+		"alias": "copied_color_hsv",
+		"tags": ["Pulse Trigger"],
+		"description": "color HSV options"
+	},
+	{
+		"id": 50,
+		"type": "int",
+		"format": "id",
+		"map": "colors",
+		"alias": "copied_color_ID",
+		"tags": ["Pulse Trigger","Color ID"],
+		"description": "the channel id of the copied color"
+	},
+	{
+		"id": 51,
+		"type": "int",
+		"format": "id",
+		"alias": "target",
+		"tags": ["Trigger","Group ID"],
+		"description": ""
+	},
+	{
+		"id": 52,
+		"type": "int",
+		"alias": "pulse_target_type",
+		"tags": ["Pulse Trigger"],
+		"description": "channel / group pulse option"
+	},
+	{
+		"id": 54,
+		"type": "float",
+		"alias": "teleportation_distance",
+		"tags": ["Object","Special"],
+		"description": "y distance between teleport portal entrance and end position, in units"
+	},
+	{
+		"id": 56,
+		"type": "bool",
+		"alias": "activate_group",
+		"tags": ["Toggle Trigger","Count Trigger","Instant Count Trigger","Collision Trigger","Toggle Block"],
+		"description": ""
+	},
+	{
+		"id": 57,
+		"type": "list_int",
+		"alias": "groups",
+		"tags": ["Object"],
+		"description": ""
+	},
+	{
+		"id": 58,
+		"type": "bool",
+		"alias": "lock_to_player_x",
+		"tags": ["Move Trigger"],
+		"description": ""
+	},
+	{
+		"id": 59,
+		"type": "bool",
+		"alias": "lock_to_player_y",
+		"tags": ["Move Trigger"],
+		"description": ""
+	},
+	{
+		"id": 60,
+		"type": "bool",
+		"alias": "copy_opacity",
+		"tags": ["Color Trigger"],
+		"description": ""
+	},
+	{
+		"id": 61,
+		"type": "int",
+		"alias": "editor_layer_2",
+		"tags": ["Object"],
+		"description": ""
+	},
+	{
+		"id": 62,
+		"type": "bool",
+		"alias": "spawn_triggered",
+		"tags": ["Trigger"],
+		"description": ""
+	},
+	{
+		"id": 63,
+		"type": "float",
+		"alias": "spawn_duration",
+		"tags": ["Spawn Trigger"],
+		"description": ""
+	},
+	{
+		"id": 64,
+		"type": "bool",
+		"alias": "dont_fade",
+		"tags": ["Object","Extra"],
+		"description": ""
+	},
+	{
+		"id": 65,
+		"type": "bool",
+		"alias": "pulse_main_only",
+		"tags": ["Pulse Trigger"],
+		"description": ""
+	},
+	{
+		"id": 66,
+		"type": "bool",
+		"alias": "pulse_detail_only",
+		"tags": ["Pulse Trigger"],
+		"description": ""
+	},
+	{
+		"id": 67,
+		"type": "bool",
+		"alias": "dont_enter",
+		"tags": ["Object","Extra"],
+		"description": ""
+	},
+	{
+		"id": 68,
+		"type": "float",
+		"alias": "rotate_degrees",
+		"tags": ["Rotate Trigger"],
+		"description": ""
+	},
+	{
+		"id": 69,
+		"type": "int",
+		"alias": "rotate_360",
+		"tags": ["Rotate Trigger"],
+		"description": ""
+	},
+	{
+		"id": 70,
+		"type": "bool",
+		"alias": "lock_object_rotation",
+		"tags": ["Rotate Trigger"],
+		"description": ""
+	},
+	{
+		"id": 71,
+		"type": "int",
+		"alias": "move_target_pos",
+		"tags": ["Move Trigger","Group ID"],
+		"description":""
+	},
+	{
+		"id": 72,
+		"type": "float",
+		"alias": "move_lock_mod_X",
+		"tags": ["Move Trigger"],
+		"description": ""
+	},
+	{
+		"id": 73,
+		"type": "float",
+		"alias": "move_lock_mod_Y",
+		"tags": ["Move Trigger"],
+		"description": ""
+	},
+	{
+		"id": 75,
+		"type": "float",
+		"alias": "strength",
+		"tags": ["Shake Trigger"],
+		"description": ""
+	},
+	{
+		"id": 76,
+		"type": "int",
+		"alias": "animation_id",
+		"tags": ["Animate Trigger","Group ID"],
+		"description": ""
+	},
+	{
+		"id": 77,
+		"type": "int",
+		"alias": "count",
+		"tags": ["Count Trigger","Instant Count Trigger","Pickup Trigger"],
+		"description": ""
+	},
+	{
+		"id": 78,
+		"type": "bool",
+		"alias": "subtract_count",
+		"tags": ["Collectable"],
+		"description": "collectable sub count property"
+	},
+	{
+		"alias": "pickup_mode",
+		"id": 79,
+		"type": "",
+		"note": ""
+	},
+	{
+		"id": 80,
+		"type": "int",
+		"alias": "item_id",
+		"tags": ["Count Trigger","Instant Count Trigger","Pickup Trigger","Time Trigger","Time Event Trigger","Time Control Trigger","Item Edit Trigger","Item Compare Trigger","Item Persist Trigger","Counter Label","Collectable","Item ID"],
+		"description": ""
+	},
+	{
+		"alias": "hold_mode",
+		"id": 81,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "toggle_mode",
+		"id": 82,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "interval",
+		"id": 84,
+		"type": "",
+		"note": ""
+	},
+	{
+		"id": 85,
+		"type": "float",
+		"alias": "easing_rate",
+		"tags": ["Trigger"],
+		"description": ""
+	},
+	{
+		"id": 86,
+		"type": "bool",
+		"alias": "pulse_exclusive",
+		"tags": ["Pulse Trigger"],
+		"description": ""
+	},
+	{
+		"id": 87,
+		"type": "bool",
+		"alias": "multi_trigger",
+		"tags": ["Trigger"],
+		"description": ""
+	},
+	{
+		"alias": "comparison",
+		"id": 88,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "dual_mode",
+		"id": 89,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "speed",
+		"id": 90,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "delay",
+		"id": 91,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "y_offset",
+		"id": 92,
+		"type": "",
+		"note": ""
+	},
+	{
+		"id": 93,
+		"type": "bool",
+		"alias": "activate_on_exit",
+		"tags": ["Collision Trigger"],
+		"description": ""
+	},
+	{
+		"id": 94,
+		"type": "bool",
+		"alias": "dynamic_block",
+		"tags": ["Collision Block"],
+		"description": ""
+	},
+	{
+		"id": 95,
+		"type": "int",
+		"alias": "block_b",
+		"tags": ["Collision Block"],
+		"description": ""
+	},
+	{
+		"id": 96,
+		"type": "bool",
+		"alias": "no_glow",
+		"tags": ["Object","Extra"],
+		"description": ""
+	},
+	{
+		"id": 97,
+		"type": "float",
+		"alias": "rotation_speed",
+		"tags": ["Object"],
+		"description": "rotation speed of saw objects"
+	},
+	{
+		"id": 98,
+		"type": "bool",
+		"alias": "disable_rotation",
+		"tags": ["Object"],
+		"description": "rotation speed of saw objects"
+	},
+	{
+		"id": 99,
+		"type": "bool",
+		"alias": "orb_multi_activate",
+		"tags": ["Object","Special"],
+		"description": ""
+	},
+	{
+		"id": 100,
+		"type": "bool",
+		"alias": "move_target_mode",
+		"tags": ["Move Trigger"],
+		"description": ""
+	},
+	{
+		"id": 101,
+		"type": "int",
+		"alias": "move_target_axes",
+		"tags": ["Move Trigger"],
+		"description": "1: X Only, 2: Y Only"
+	},
+	{
+		"id": 102,
+		"type": "bool",
+		"alias": "editor_preview_disable",
+		"tags": ["Spawn Trigger"],
+		"description": ""
+	},
+	{
+		"id": 103,
+		"type": "bool",
+		"alias": "high_detail",
+		"tags": ["Object","Extra"],
+		"note": ""
+	},
+	{
+		"id": 104,
+		"type": "bool",
+		"alias": "count_multi_activate",
+		"tags": ["Count Trigger"],
+		"description": ""
+	},
+	{
+		"alias": "max_speed",
+		"id": 105,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "randomize_start",
+		"id": 106,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "animation_speed",
+		"id": 107,
+		"type": "",
+		"note": ""
+	},
+	{
+		"id": 108,
+		"type": "int",
+		"alias": "linked_group",
+		"tags": ["Object","Linked ID"],
+		"description": ""
+	},
+	{
+		"alias": "camera_zoom",
+		"id": 109,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "free_mode",
+		"id": 111,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "edit_free_cam_settings",
+		"id": 112,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "free_cam_easing",
+		"id": 113,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "free_cam_padding",
+		"id": 114,
+		"type": "",
+		"note": ""
+	},
+	{
+		"id": 115,
+		"type": "int",
+		"alias": "ord",
+		"tags": ["Trigger"],
+		"description": ""
+	},
+	{
+		"id": 116,
+		"type": "bool",
+		"alias": "no_effects",
+		"tags": ["Object","Extra"],
+		"description": ""
+	},
+	{
+		"id": 118,
+		"type": "bool",
+		"alias": "reverse",
+		"tags": ["Object","Extra"],
+		"description": ""
+	},
+	{
+		"alias": "song_start",
+		"id": 119,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "time_mod",
+		"id": 120,
+		"type": "",
+		"note": ""
+	},
+	{
+		"id": 121,
+		"type": "bool",
+		"alias": "no_touch",
+		"tags": ["Object","Extra"],
+		"description": ""
+	},
+	{
+		"alias": "animate_on_trigger",
+		"id": 123,
+		"type": "",
+		"note": ""
+	},
+	{
+		"id": 128,
+		"type": "float",
+		"alias": "scale_X",
+		"tags": ["Object"],
+		"description": ""
+	},
+	{
+		"id": 129,
+		"type": "float",
+		"alias": "scale_Y",
+		"tags": ["Object"],
+		"description": ""
+	},
+	{
+		"alias": "perspective_x",
+		"id": 131,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "perspective_y",
+		"id": 132,
+		"type": "",
+		"note": ""
+	},
+	{
+		"id": 133,
+		"type": "bool",
+		"alias": "only_move",
+		"tags": ["Scale Trigger"],
+		"description": ""
+	},
+	{
+		"id": 134,
+		"type": "bool",
+		"alias": "passable",
+		"tags": ["Object","Extra"],
+		"description": ""
+	},
+	{
+		"id": 135,
+		"type": "bool",
+		"alias": "hide",
+		"tags": ["Object","Extra"],
+		"description": ""
+	},
+	{
+		"id": 136,
+		"type": "bool",
+		"alias": "nonstick_x",
+		"tags": ["Object","Extra"],
+		"description": ""
+	},
+	{
+		"id": 137,
+		"type": "bool",
+		"alias": "ice_block",
+		"tags": ["Object","Extra"],
+		"description": ""
+	},
+	{
+		"id": 138,
+		"type": "bool",
+		"alias": "target_player_1",
+		"tags": ["Move Trigger","Rotate Trigger"],
+		"description": ""
+	},
+	{
+		"id": 139,
+		"type": "bool",
+		"alias": "pickup_override",
+		"tags": ["Pickup Trigger"],
+		"description": ""
+	},
+	{
+		"id": 141,
+		"type": "bool",
+		"alias": "follow_camera_x",
+		"tags": ["Move Trigger"],
+		"description": ""
+	},
+	{
+		"id": 142,
+		"type": "bool",
+		"alias": "follow_camera_y",
+		"tags": ["Move Trigger"],
+		"description": ""
+	},
+	{
+		"id": 143,
+		"type": "float",
+		"alias": "follow_camera_x_mod",
+		"tags": ["Move Trigger"],
+		"description": ""
+	},
+	{
+		"id": 144,
+		"type": "float",
+		"alias": "follow_camera_y_mod",
+		"tags": ["Move Trigger"],
+		"description": ""
+	},
+	{
+		"alias": "particle_setup",
+		"id": 145,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "use_obj_color",
+		"id": 146,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "gravity",
+		"id": 148,
+		"type": "",
+		"note": ""
+	},
+	{
+		"id": 150,
+		"type": "float",
+		"alias": "scale_x_by",
+		"tags": ["Scale Trigger"],
+		"description": ""
+	},
+	{
+		"id": 151,
+		"type": "float",
+		"alias": "scale_y_by",
+		"tags": ["Scale Trigger"],
+		"description": ""
+	},
+	{
+		"alias": "group_probabilities",
+		"id": 152,
+		"type": "",
+		"note": ""
+	},
+	{
+		"id": 153,
+		"type": "bool",
+		"alias": "div_by_x",
+		"tags": ["Scale Trigger"],
+		"description": ""
+	},
+	{
+		"id": 154,
+		"type": "bool",
+		"alias": "div_by_y",
+		"tags": ["Scale Trigger"],
+		"description": ""
+	},
+	{
+		"alias": "streak_additive",
+		"id": 159,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "unlink_dual_gravity",
+		"id": 160,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "hide_ground",
+		"id": 161,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "hide_p1",
+		"id": 162,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "hide_p2",
+		"id": 163,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "camera_edge",
+		"id": 164,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "keep_velocity",
+		"id": 169,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "change_channel",
+		"id": 171,
+		"type": "",
+		"note": ""
+	},
+	{
+		"id": 193,
+		"type": "bool",
+		"alias": "grip_slope",
+		"tags": ["Object","Extra"],
+		"description": ""
+	},
+	{
+		"alias": "hide_mg",
+		"id": 195,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "player_only",
+		"id": 198,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "disable_controls_p1",
+		"id": 199,
+		"type": "",
+		"note": ""
+	},
+	{
+		"id": 200,
+		"type": "bool",
+		"alias": "target_player_2",
+		"tags": ["Move Trigger","Rotate Trigger"],
+		"description": ""
+	},
+	{
+		"alias": "_pt",
+		"id": 201,
+		"type": "",
+		"note": ""
+	},
+	{
+		"id": 202,
+		"type": "int",
+		"alias": "gradient_layer",
+		"tags": ["Gradient Trigger"],
+		"description": ""
+	},
+	{
+		"id": 203,
+		"type": "int",
+		"alias": "gradient_U",
+		"tags": ["Gradient Trigger"],
+		"description": ""
+	},
+	{
+		"id": 203,
+		"type": "int",
+		"alias": "gradient_BL",
+		"tags": ["Gradient Trigger"],
+		"description": ""
+	},
+	{
+		"id": 204,
+		"type": "int",
+		"alias": "gradient_D",
+		"tags": ["Gradient Trigger"],
+		"description": ""
+	},
+	{
+		"id": 204,
+		"type": "int",
+		"alias": "gradient_BR",
+		"tags": ["Gradient Trigger"],
+		"description": ""
+	},
+	{
+		"id": 205,
+		"type": "int",
+		"alias": "gradient_L",
+		"tags": ["Gradient Trigger"],
+		"description": ""
+	},
+	{
+		"id": 205,
+		"type": "int",
+		"alias": "gradient_TL",
+		"tags": ["Gradient Trigger"],
+		"description": ""
+	},
+	{
+		"id": 206,
+		"type": "int",
+		"alias": "gradient_R",
+		"tags": ["Gradient Trigger"],
+		"description": ""
+	},
+	{
+		"id": 206,
+		"type": "int",
+		"alias": "gradient_TR",
+		"tags": ["Gradient Trigger"],
+		"description": ""
+	},
+	{
+		"id": 207,
+		"type": "bool",
+		"alias": "gradient_vertex_mode",
+		"tags": ["Gradient Trigger"],
+		"description": ""
+	},
+	{
+		"id": 208,
+		"type": "bool",
+		"alias": "gradient_disable",
+		"tags": ["Gradient Trigger"],
+		"description": ""
+	},
+	{
+		"id": 209,
+		"type": "int",
+		"alias": "gradient_ID",
+		"tags": ["Gradient Trigger"],
+		"description": ""
+	},
+	{
+		"alias": "quick_start",
+		"id": 211,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "follow_group",
+		"id": 212,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "follow_easing",
+		"id": 213,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "follow_p1",
+		"id": 215,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "follow_p2",
+		"id": 216,
+		"type": "",
+		"note": ""
+	},
+	{
+		"id": 218,
+		"type": "int",
+		"alias": "area_move_dist",
+		"tags": ["Area Move Trigger","Edit Area Move Trigger"],
+		"description": ""
+	},
+	{
+		"alias": "area_offset",
+		"id": 220,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "area_length",
+		"id": 222,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "effect_id",
+		"id": 225,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "area_move_angle",
+		"id": 231,
+		"type": "",
+		"tags": ["Area Move Trigger","Edit Area Move Trigger"],
+		"description": ""
+	},
+	{
+		"alias": "area_scale_x",
+		"id": 233,
+		"type": "float",
+		"format": "value",
+		"tags": ["Area Scale Trigger","Edit Area Scale Trigger"],
+		"description": ""
+	},
+	{
+		"alias": "area_scale_y",
+		"id": 235,
+		"type": "int",
+		"tags": ["Area Scale Trigger","Edit Area Scale Trigger"],
+		"description": ""
+	},
+	{
+		"alias": "area_move_x",
+		"id": 237,
+		"type": "int",
+		"tags": ["Area Move Trigger","Edit Area Move Trigger"],
+		"description": "value is stored in small step"
+	},
+	{
+		"alias": "area_move_y",
+		"id": 239,
+		"type": "int",
+		"tags": ["Area Move Trigger","Edit Area Move Trigger"],
+		"description": "value is stored in small step"
+	},
+	{
+		"alias": "area_xy_mode",
+		"id": 241,
+		"type": "bool",
+		"tags": ["Area Move Trigger","Edit Area Move Trigger"],
+		"description": ""
+	},
+	{
+		"alias": "area_easing",
+		"id": 242,
+		"type": "int",
+		"format": "enum",
+		"tags": ["Area Trigger","Edit Area Trigger"],
+		"description": ""
+	},
+	{
+		"id": 262,
+		"type": "int",
+		"alias": "area_direction",
+		"map": [0,0,1,1,1,1,2,2,2,2],
+		"tags": ["Area Move Trigger","Area Scale Trigger","Area Rotate Trigger","Area Fade Trigger","Area Tint Trigger"],
+		"description": ""
+	},
+	{
+		"id": 263,
+		"type": "float",
+		"alias": "mod_front",
+		"tags": ["Area Move Trigger","Area Scale Trigger","Area Rotate Trigger","Area Fade Trigger","Area Tint Trigger","Edit Area Move Trigger","Edit Area Scale Trigger","Edit Area Rotate Trigger","Edit Area Fade Trigger","Edit Area Tint Trigger"],
+		"description": ""
+	},
+	{
+		"id": 264,
+		"type": "float",
+		"alias": "mod_back",
+		"tags": ["Area Move Trigger","Area Scale Trigger","Area Rotate Trigger","Area Fade Trigger","Area Tint Trigger","Edit Area Move Trigger","Edit Area Scale Trigger","Edit Area Rotate Trigger","Edit Area Fade Trigger","Edit Area Tint Trigger"],
+		"description": ""
+	},
+	{
+		"id": 274,
+		"type": "list_int",
+		"alias": "parent_groups",
+		"tags": ["Object"],
+		"description": ""
+	},
+	{
+		"id": 276,
+		"type": "bool",
+		"alias": "area_inwards",
+		"map": [0,1,0,1,0,1,0,1,1,0],
+		"tags": ["Area Move Trigger","Area Scale Trigger","Area Rotate Trigger","Area Fade Trigger","Area Tint Trigger"],
+		"description": ""
+	},
+	{
+		"id": 279,
+		"type": "bool",
+		"alias": "area_parent",
+		"tags": ["Object","Extra"],
+		"description": ""
+	},
+	{
+		"id": 282,
+		"type": "float",
+		"alias": "deadzone",
+		"tags": ["Area Move Trigger","Area Scale Trigger","Area Rotate Trigger","Area Fade Trigger","Area Tint Trigger","Edit Area Move Trigger","Edit Area Scale Trigger","Edit Area Rotate Trigger","Edit Area Fade Trigger","Edit Area Tint Trigger"],
+		"description": ""
+	},
+	{
+		"id": 283,
+		"type": "bool",
+		"alias": "area_mirrored",
+		"map": [0,0,1,1,0,0,1,1,0,0],
+		"tags": ["Area Move Trigger","Area Scale Trigger","Area Rotate Trigger","Area Fade Trigger","Area Tint Trigger"],
+		"description": ""
+	},
+	{
+		"id": 284,
+		"type": "bool",
+		"tags": ["Object","Extra"],
+		"alias": "single_ptouch",
+		"description": ""
+	},
+	{
+		"id": 289,
+		"type": "bool",
+		"alias": "nonstick_y",
+		"tags": ["Object","Extra"],
+		"description": ""
+	},
+	{
+		"id": 341,
+		"type": "int",
+		"alias": "area_priority",
+		"tags": ["Area Move Trigger","Area Scale Trigger","Area Rotate Trigger","Area Fade Trigger","Area Tint Trigger"],
+		"description": ""
+	},
+	{
+		"id": 343,
+		"type": "int",
+		"alias": "enter_channel",
+		"tags": ["Object","Extra"],
+		"description": ""
+	},
+	{
+		"id": 356,
+		"type": "bool",
+		"alias": "scale_stick",
+		"tags": ["Object","Extra"],
+		"description": ""
+	},
+	{
+		"id": 365,
+		"type": "int",
+		"alias": "advfol_priority",
+		"tags": ["Advanced Follow Trigger"],
+		"description": ""
+	},
+	{
+		"id": 369,
+		"type": "bool",
+		"alias": "center_effect",
+		"tags": ["Object","Extra"],
+		"description": ""
+	},
+	{
+		"alias": "disable_grid_snap",
+		"id": 370,
+		"type": "",
+		"note": ""
+	},
+	{
+		"id": 372,
+		"type": "bool",
+		"alias": "no_audio_scale",
+		"tags": ["Object","Extra"],
+		"description": ""
+	},
+	{
+		"alias": "follow_mode",
+		"id": 394,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "center_group_id",
+		"id": 395,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "target_move_distance",
+		"id": 396,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "rotation_dynamic",
+		"id": 397,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "rotation_target",
+		"id": 401,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "rotation_offset",
+		"id": 402,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "events",
+		"id": 430,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "sequence",
+		"id": 435,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "seq_mode",
+		"id": 436,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "seq_min_int",
+		"id": 437,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "seq_reset",
+		"id": 438,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "seq_reset_type",
+		"id": 439,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "spawn_ordered",
+		"id": 441,
+		"type": "",
+		"note": ""
+	},
+	{
+		"id": 442,
+		"type": "remaps",
+		"alias": "spawn_remap",
+		"tags": ["Spawn Trigger"],
+		"note":""
+	},
+	{
+		"id": 446,
+		"type": "int",
+		"alias": "material",
+		"tags": ["Object","Extra"],
+		"description": ""
+	},
+	{
+		"alias": "pickup_mod",
+		"id": 449,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "preview_opacity",
+		"id": 456,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "timer_display",
+		"id": 466,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "timer_start",
+		"id": 467,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "no_timer_override",
+		"id": 468,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "ignore_time_warp",
+		"id": 469,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "timer_mod",
+		"id": 470,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "timer_paused",
+		"id": 471,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "timer_control",
+		"id": 472,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "timer_target",
+		"id": 473,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "timer_stop",
+		"id": 474,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "timer_multi_active",
+		"id": 475,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "item_type_1",
+		"id": 476,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "item_type_2",
+		"id": 477,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "item_type_3",
+		"id": 478,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "num_mod",
+		"id": 479,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "num_op_1",
+		"id": 480,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "num_op_2",
+		"id": 481,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "num_op_3",
+		"id": 482,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "num_mod_2",
+		"id": 483,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "num_offset",
+		"id": 484,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "round_op_1",
+		"id": 485,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "round_op_2",
+		"id": 486,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "set_persistent",
+		"id": 491,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "pers_target_all",
+		"id": 492,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "pers_reset",
+		"id": 493,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "pers_timer",
+		"id": 494,
+		"type": "",
+		"note": ""
+	},
+	{
+		"id": 495,
+		"type": "bool",
+		"alias": "extra_sticky",
+		"tags": ["Object","Extra"],
+		"description": ""
+	},
+	{
+		"id": 496,
+		"type": "bool",
+		"alias": "dont_boost_y",
+		"tags": ["Object","Extra"],
+		"description": ""
+	},
+	{
+		"id": 505,
+		"type": "bool",
+		"alias": "seq_unique_remap",
+		"tags": ["Sequence Trigger"],
+		"description": ""
+	},
+	{
+		"id": 507,
+		"type": "bool",
+		"alias": "no_particle",
+		"tags": ["Object","Extra"],
+		"description": ""
+	},
+	{
+		"id": 509,
+		"type": "bool",
+		"alias": "dont_boost_x",
+		"tags": ["Object","Extra"],
+		"description": ""
+	},
+	{
+		"id": 511,
+		"type": "bool",
+		"alias": "extended_collision",
+		"tags": ["Object","Extra"],
+		"description": ""
+	},
+	{
+		"alias": "event_target",
+		"id": 525,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "dont_edit_area_parent",
+		"id": 539,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "neg_op_1",
+		"id": 578,
+		"type": "",
+		"note": ""
+	},
+	{
+		"alias": "neg_op_2",
+		"id": 579,
+		"type": "",
+		"note": ""
+	}
+]

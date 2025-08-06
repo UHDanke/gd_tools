@@ -1,0 +1,95 @@
+id,group
+1,default object
+2,objects 1
+3,portals 1
+4,portals 2
+5,enter legacy
+6,color legacy
+7,start pos
+8,gameplay 1
+9,saws 1
+10,objects 2
+11,saws 2
+12,color
+13,tp portal
+14,move trigger
+15,text object
+16,monsters
+17,animated spikes
+18,animated 1
+19,pulse trigger
+20,alpha trigger
+21,"green orb, black orb"
+22,"toggle, on death"
+23,animated 2
+24,spawn trigger
+25,collectibles
+26,user coin
+27,rotate trigger
+28,follow trigger
+29,shake trigger
+30,animate trigger
+31,touch trigger
+32,count trigger
+33,small coin
+34,counter label
+35,stop trigger
+36,"dash orb, reverse dash orb"
+37,instant count trigger
+38,follow player y trigger
+39,collision trigger
+40,collision block
+41,pickup trigger
+42,random trigger
+43,zoom camera trigger
+44,static camera trigger
+45,offset camera trigger
+46,old end trigger
+47,player control trigger
+48,"song trigger, edit song trigger"
+49,timewarp
+50,rotate camera trigger
+51,camera guide
+52,animated 3
+53,camera edge trigger
+54,checkpoint
+55,tp portal exit
+56,particle object
+57,gravity trigger
+58,scale trigger
+59,adv rand trigger
+60,force block
+61,template objects
+62,options trigger
+63,rotate gameplay trigger
+64,camera gameplay offset trigger
+65,tp portal single
+66,gradient trigger
+67,shaders
+68,camera mode trigger
+69,middleground trigger
+70,"area triggers, stop enter effect  trigger"
+71,advanced follow trigger
+72,teleport trigger
+73,teleport orb
+74,"BG,G,MG"
+75,keyframe
+76,animate keyframe
+77,end trigger
+78,sfx trigger
+79,event trigger
+80,"bg speed trigger, mg speed trigger"
+81,sequence trigger
+82,spawn particle trigger
+83,instant collision trigger
+84,ui trigger
+85,time trigger
+86,time event trigger
+87,time control trigger
+88,"reset trigger, object control, link visible trigger"
+89,item edit trigger
+90,item compare trigger
+91,state block
+92,item persist
+93,bpm guide
+94,"edit adv follow trigger, retarget adv follow trigger"

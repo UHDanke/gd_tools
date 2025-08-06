@@ -1,0 +1,16 @@
+id,type,alias,test value
+97,float,rotation_speed,12.15167162
+381,bool,collectible_pickup_item,1
+382,bool,collectible_toggle_trigger,1
+383,int,collectible_points,12541
+463,bool,collectible_no_anim,1
+504,bool,toggle_spawn_only,1
+51,,,1677
+78,,,1
+381,,,1
+382,,,1
+56,,,1
+80,,,1351
+383,,,2456
+440,,,841
+463,,,1
